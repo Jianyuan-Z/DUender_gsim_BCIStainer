@@ -2,6 +2,15 @@
 DUender_gsim_BCIStainer
 
 ## 1.Environment
+```bash
+# using conda
+conda create --name bci python=3.8
+conda activate bci
+
+# pytorch 1.12.0
+pip install torch==1.12.0+cu113 torchvision==0.13.0+cu113 -f https://download.pytorch.org/whl/torch_stable.html
+
+# other packages
 pip install -r requirements.txt
 
 ## 2.Dateset
