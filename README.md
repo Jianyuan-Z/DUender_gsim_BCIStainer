@@ -1,6 +1,26 @@
 # DUender_gsim_BCIStainer
 DUender_gsim_BCIStainer
-# Train
+
+## 1.Environment
+pip install -r requirements.txt
+
+## 2.Dateset
+Download dataset from [BCI page](https://bupt-ai-cz.github.io/BCI/) and put it in [data](./data) directory as folowing file structure:
+./data
+├── test
+│   ├── HE
+│   ├── IHC
+│   └── README.txt
+├── train
+│   ├── HE
+│   ├── IHC
+│   └── README.txt
+└── val
+    ├── HE
+    ├── IHC
+    └── README.txt
+    
+## 3.Train
 CUDA_VISIBLE_DEVICES=0          \
 python train.py                 \
     --train_dir   ./data/train  \
@@ -8,7 +28,8 @@ python train.py                 \
     --exp_root    ./experiments \
     --config_file ./configs/stainer_basic_cmp/exp100.yaml \
     --trainer     basic
-# Evaluate
+    
+## 4.Evaluate
 CUDA_VISIBLE_DEVICES=0            \
 python evaluate.py                \
     --data_dir    ./data/test     \
