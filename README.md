@@ -7,18 +7,18 @@ pip install -r requirements.txt
 ## 2.Dateset
 Download dataset from [BCI page](https://bupt-ai-cz.github.io/BCI/) and put it in [data](./data) directory as folowing file structure:
 ./data
-—— —— test
-—— —— —— HE
-—— —— —— IHC
-—— —— —— README.txt
-—— —— train
-—— —— —— HE
-—— —— —— IHC
-—— —— —— README.txt
-—— —— val
-—— —— —— HE
-—— —— —— IHC
-—— —— —— README.txt
+├── test
+│   ├── HE
+│   ├── IHC
+│   └── README.txt
+├── train
+│   ├── HE
+│   ├── IHC
+│   └── README.txt
+└── val
+    ├── HE
+    ├── IHC
+    └── README.txt
     
 ## 3.Train
 CUDA_VISIBLE_DEVICES=0          \
