@@ -55,3 +55,10 @@ python evaluate.py                \
     --apply_tta   true            \
     --evaluator   basic
 ```
+
+
+## Acknowledgement
+Many thanks for these repos for their great contribution!
+[https://github.com/quqixun/BCIStainer/tree/main](https://github.com/quqixun/BCIStainer/tree/main)
+
+[https://github.com/JCruan519/VM-UNet](https://github.com/JCruan519/VM-UNet)
