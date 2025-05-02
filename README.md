@@ -59,7 +59,7 @@ python evaluate.py                \
     --data_dir    ./data/test     \
     --exp_root    ./experiments   \
     --output_root ./evaluations   \
-    --config_file ./configs/stainer_basic_cmp/exp3.yaml \
+    --config_file ./configs/stainer_basic_cmp/exp100.yaml \
     --model_name  model_best_psnr \
     --apply_tta   true            \
     --evaluator   basic
