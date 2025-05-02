@@ -1,6 +1,8 @@
 # DUender_gsim_BCIStainer
 DUender_gsim_BCIStainer
 
+<img src="./assets/图7.png" width=800 />
+
 ## 1.Environment
 ```bash
 # using conda
