@@ -49,6 +49,9 @@ python train.py                 \
     --trainer     basic
 ```
 
+Download pretrained model and put it into above directory:
+- BaiduYun: [https://pan.baidu.com/s/1QxZ2zB0CHZKyttXqpS9iDw](https://pan.baidu.com/s/1ygGJho1X2fug458ZvI_SYQ?pwd=fntq)  Code: fntq
+
 ## 4.Evaluate
 ```bash
 CUDA_VISIBLE_DEVICES=0            \
