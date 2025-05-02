@@ -1,7 +1,11 @@
 # DUender_gsim_BCIStainer
 DUender_gsim_BCIStainer
 
-<img src="./assets/图7.png" width=800 />
+<p align="center">
+    <br>
+    <img src="./assets/图7.png" width=800 />
+    <br>
+</p>
 
 ## 1.Environment
 ```bash
