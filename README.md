@@ -12,6 +12,7 @@ pip install torch==1.12.0+cu113 torchvision==0.13.0+cu113 -f https://download.py
 
 # other packages
 pip install -r requirements.txt
+```
 
 ## 2.Dateset
 Download dataset from [BCI page](https://bupt-ai-cz.github.io/BCI/) and put it in [data](./data) directory as folowing file structure:
