@@ -6,6 +6,7 @@ pip install -r requirements.txt
 
 ## 2.Dateset
 Download dataset from [BCI page](https://bupt-ai-cz.github.io/BCI/) and put it in [data](./data) directory as folowing file structure:
+```
 ./data
 ├── test
 │   ├── HE
@@ -21,6 +22,7 @@ Download dataset from [BCI page](https://bupt-ai-cz.github.io/BCI/) and put it i
     └── README.txt
     
 ## 3.Train
+```bash
 CUDA_VISIBLE_DEVICES=0          \
 python train.py                 \
     --train_dir   ./data/train  \
@@ -30,6 +32,7 @@ python train.py                 \
     --trainer     basic
     
 ## 4.Evaluate
+```bash
 CUDA_VISIBLE_DEVICES=0            \
 python evaluate.py                \
     --data_dir    ./data/test     \
