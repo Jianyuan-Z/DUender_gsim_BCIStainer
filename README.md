@@ -20,7 +20,8 @@ Download dataset from [BCI page](https://bupt-ai-cz.github.io/BCI/) and put it i
     ├── HE
     ├── IHC
     └── README.txt
-    
+```
+
 ## 3.Train
 ```bash
 CUDA_VISIBLE_DEVICES=0          \
@@ -30,7 +31,8 @@ python train.py                 \
     --exp_root    ./experiments \
     --config_file ./configs/stainer_basic_cmp/exp100.yaml \
     --trainer     basic
-    
+```
+
 ## 4.Evaluate
 ```bash
 CUDA_VISIBLE_DEVICES=0            \
@@ -42,3 +44,4 @@ python evaluate.py                \
     --model_name  model_best_psnr \
     --apply_tta   true            \
     --evaluator   basic
+```
