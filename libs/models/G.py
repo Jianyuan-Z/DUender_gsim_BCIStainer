@@ -350,11 +350,7 @@ class SS2D(nn.Module):
 
         self.out_norm = nn.LayerNorm(self.d_inner)
         self.out_proj = nn.Linear(self.d_inner, self.d_model, bias=bias, **factory_kwargs)
-        # self.psffn = PSFFN(self.d_model)
-        # self.channel_shuffle = ChannelShuffle(4)
-        # self.cbam = CBAMLayer(self.d_model)
         self.dropout = nn.Dropout(dropout) if dropout > 0. else None
-        # self.atten = SimAM()
 
     @staticmethod
     def dt_init(dt_rank, d_inner, dt_scale=1.0, dt_init="random", dt_min=0.001, dt_max=0.1, dt_init_floor=1e-4,
@@ -509,13 +505,6 @@ class SS2D(nn.Module):
 
         y = y * F.silu(z)
         out = self.out_proj(y)
-
-        # out = self.atten(out)
-
-        # batch_size, h1, w1, d_model = out.size()
-        # out = out.permute(0, 3, 1, 2).contiguous()
-        # out = self.cbam(out)
-        # out = out.permute(0, 2, 3, 1).contiguous()
 
         if self.dropout is not None:
             out = self.dropout(out)
