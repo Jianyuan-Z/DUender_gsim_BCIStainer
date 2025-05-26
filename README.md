@@ -1,4 +1,4 @@
-# Dual-Encoder with Feature Fusion for IHC Synthesis from HE-Stained Sections(DUender_GSIM_BCIStainer)
+# Dual-Encoder with Feature Fusion for IHC Synthesis from HE-Stained Sections(Dual-Encoder_GSIM_BCIStainer)
 Our dual-encoder model integrates HER2 expression and multi-scale features through a novel feature fusion module to enhance translation accuracy. On the BCI test set, our method surpasses existing approaches.
 
 <p align="center">
