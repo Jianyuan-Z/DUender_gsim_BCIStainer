@@ -13,7 +13,7 @@ def define_G(configs):
         net = BCIStainerCAHR(**configs.params)
     elif configs.name == 'mamba_gsim':
         net = BCIStainerBasic_mamba_gsim(**configs.params)
-else:
+    else:
         raise NotImplementedError(f'unknown G model name {configs.name}')
 
     init_weights(net, **configs.init)
