@@ -8,6 +8,12 @@ Our dual-encoder model integrates HER2 expression and multi-scale features throu
 </p>
 
 ## 1.Environment
+Dual-Encoder_GSIM_BCIStainer runs in the Python environment. Here's a recommendation for your project environment:
+- Python 3.8
+- Torch 2.0.0
+- Torchvision 0.15.1
+- CUDA 11.8
+- 
 ```bash
 # using conda
 conda create --name bci python=3.8
