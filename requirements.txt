@@ -12,7 +12,7 @@ pandas                 == 1.4.3
 piqa                   == 1.2.2
 lpips                  == 0.1.4
 ema-pytorch            == 0.0.10
-mamba_ssm      ==1.0.1
+mamba_ssm      ==1.1.2
 triton         ==2.0.0
 timm        ==0.4.12
-causal_conv1d          ==1.0.0
+causal_conv1d          ==1.4.0
