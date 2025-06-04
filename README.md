@@ -3,7 +3,7 @@ Our dual-encoder model integrates HER2 expression and multi-scale features throu
 
 <p align="center">
     <br>
-    <img src="./assets/图7.png" width=800 />
+    <img src="./assets/model2.png" width=800 />
     <br>
 </p>
 
