@@ -13,14 +13,13 @@ Dual-Encoder_GSIM_BCIStainer runs in the Python environment. Here's a recommenda
 - Torch 2.0.0
 - Torchvision 0.15.1
 - CUDA 11.8
-- 
 ```bash
 # using conda
 conda create --name bci python=3.8
 conda activate bci
 
 # pytorch 1.13.0
-pip install torch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
+pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --extra-index-url https://download.pytorch.org/whl/cu118
 
 # other packages
 pip install -r requirements.txt
