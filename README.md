@@ -55,7 +55,7 @@ python train.py                 \
 ```
 
 Download pretrained model and put it into above directory:
-- BaiduYun: [https://pan.baidu.com/s/1QxZ2zB0CHZKyttXqpS9iDw](https://pan.baidu.com/s/1ok9BmbfK_dj6jiTZnrDMbQ?pwd=ixbg)  Code: ixbg
+- BaiduYun: [https://pan.baidu.com/s/1QxZ2zB0CHZKyttXqpS9iDw](https://pan.baidu.com/s/1ok9BmbfK_dj6jiTZnrDMbQ?pwd=ixbg)
 
 ## 4.Evaluate
 ```bash
