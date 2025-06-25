@@ -1,4 +1,5 @@
-# Dual-Encoder Network with Feature Fusion for Immunohistochemistry Synthesis from H&E Images
+# Dual-Encoder Network with Feature Fusion for Immunohistochemistry Synthesis(ICMLCA25)
+ from HE Images
 Our dual-encoder model integrates HER2 expression and multi-scale features through a novel feature fusion module to enhance translation accuracy. On the BCI test set, our method surpasses existing approaches.
 
 <p align="center">
